@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>469</width>
+    <height>572</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>70</y>
+     <width>262</width>
+     <height>257</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QListWidget" name="listWidget">
+          <item>
+           <property name="text">
+            <string>apple</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icon/apple.ico</normaloff>icon/apple.ico</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>banana</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icon/banana.ico</normaloff>icon/banana.ico</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>orange</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icon/orange.ico</normaloff>icon/orange.ico</iconset>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>peach</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>icon/peach.ico</normaloff>icon/peach.ico</iconset>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QRadioButton" name="radioButton">
+            <property name="text">
+             <string>列表模式</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="radioButton_2">
+            <property name="text">
+             <string>图标模式</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

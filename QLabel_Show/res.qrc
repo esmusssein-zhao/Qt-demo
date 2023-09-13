@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/1.ico</file>
+        <file>res/2.ico</file>
+        <file>res/apple.ico</file>
+        <file>res/Coin0001.png</file>
+        <file>res/Coin0008.png</file>
+        <file>res/strawberry.ico</file>
+    </qresource>
+</RCC>
